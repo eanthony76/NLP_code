@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Destination folder where you want to save your audio files
+DEST_FOLDER="."
+# Ensure the folder exists
+mkdir -p "$DEST_FOLDER"
+
+# Filename format: audio_YYYYMMDD_HHMMSS.wav
+FILENAME="audio_input.wav"
+FULL_PATH="$DEST_FOLDER/$FILENAME"
+
+# Start recording
+echo "Recording... Press Ctrl+C to stop."
+arecord -f cd "$FULL_PATH"
+
+# After recording
+echo "Saved recording to $FULL_PATH"
+
+mv *.wav audio_files/.
+
+# Continue recording

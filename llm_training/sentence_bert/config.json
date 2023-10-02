@@ -1,0 +1,10 @@
+{
+	"model": "cross-encoder/stsb-roberta-large",
+	"datafile": "../../../data/file.tsv",
+	"datacol": "text",
+	"datadir": "../data/",
+	"output_filename":"../data/output_scores.csv",
+	"bi-encoder-model":"sentence-transformers/all-distilroberta-v1",
+	"output-results-path":"../results",
+	"training_data_file":"../data/questions_with_answers.tsv"
+}

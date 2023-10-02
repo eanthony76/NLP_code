@@ -1,0 +1,55 @@
+{
+    "1": {
+	"phrases": ["break one", "line one", "one", "1", "line 1"],
+        "code": "Location of pickup site",
+        "meaning": "Coordinates or reference to a map for the location where the injured personnel are to be picked up."
+    },
+    "2": {
+	"phrases": ["break two", "line two", "two", "2", "line 2"],
+        "code": "Radio frequency call sign and suffix",
+        "meaning": "The radio frequency the rescuers should communicate on and the call sign they should use."
+    },
+    "3": {
+	"phrases": ["break three", "line three", "three", "3", "line 3"],
+        "code": "Number of patients by precedence",
+	"options": {"A": "Urgent (within 2 hours)", "B": "Urgent surgical (within 2 hours)", "C": "Priority (within 4 hours)", "D": "Routine (within 24 hours)"},
+        "meaning": "Number and urgency of the patients. Urgency is categorized as Urgent, Urgent Surgical, Priority, Routine, or Convenience."
+    },
+    "4": {
+	"phrases": ["break four", "line four", "four", "4", "line 4"],
+        "code": "Special equipment required",
+	"options": {"A": "None", "B": "Hoist", "C":"Extraction equipment", "D": "Ventilator"},
+        "meaning": "Any specific equipment needed for the rescue or medical care, such as ventilators, hoist, or extraction equipment."
+    },
+    "5": {
+	"phrases": ["break five", "line five", "five", "5", "line 5"],
+        "code": "Number of patients by type",
+	"options": {"L": "litter", "A": "Ambulatory"},
+        "meaning": "Number of patients and whether they are ambulatory (can walk) or litter (require a stretcher)."
+    },
+    "6": {
+	"phrases": ["break six", "line six", "six", "6", "line 6"],
+        "code": "Security of pickup site",
+	"options": {"N": "No enemy troops", "P": "Possible enemy", "E": "Enemy in area, procede with caution", "X": "Enemy in area, armed escort required"},
+        "meaning": "Details on the security of the area: N (No enemy), P (Possible enemy), E (Enemy in area, approach with caution), or X (Enemy in area, armed escort required)."
+    },
+    "7": {
+	"phrases": ["break seven", "line seven", "seven", "7", "line 7"],
+        "code": "Method of marking pickup site",
+	"options": {"A": "panels (color)", "B": "Pyrotechnic signal", "C": "smoke signal", "D": "None", "E": "other"},
+        "meaning": "How the pickup site will be marked, e.g., smoke, panels, pyrotechnics."
+    },
+    "8": {
+	"phrases": ["break eight", "line eight", "eight", "8", "line 8"],
+        "code": "Patient nationality and status",
+	"options": {"A": "US Military", "B": "US Civilian", "C": "Non-US Military", "D": "Non-US Civilian", "E": "other"},
+        "meaning": "Nationality of the injured (e.g., US, Non-US military, civilian) and their status (e.g., POW, detainee)."
+    },
+    "9": {
+	"phrases": ["break nine", "line nine", "nine", "9", "line 9"],
+        "code": "NBC Contamination",
+	"options": {"N": "nuclear", "B": "biological", "C": "chemical"},
+        "meaning": "Information on nuclear, biological, or chemical contamination in the area. N (Nuclear), B (Biological), C (Chemical), or None if there's no contamination."
+    }
+}
+

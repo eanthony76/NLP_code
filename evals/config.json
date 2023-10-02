@@ -1,0 +1,16 @@
+{
+	"model_name": "google/flan-t5-small",
+	"pipeline_task": "text2text-generation",
+	"bucket_name": "dst-web-scrap",
+	"output_bucket_name":"dst-web-scrap",
+	"s3_input_prefix": "washington-post/washington-post-aug-2023",
+	"s3_output_prefix": "results",
+	"processed_bucket": "results",
+        "dataset_bucket": "dataset",
+	"query_prompt":"write a question which can be answered by the following sentence. ",
+	"answer_prompt": "answer the question given the context provided.",
+	"sts_prompt": "Write a sentence that is either similar to, dissimilar to, or unassociated with the following sentence",
+	"s3_unzip_prefix": "unzipped",
+        "sentences_field": "text",
+        "qa_raw_file": "qa_pairs.jsonl"
+}

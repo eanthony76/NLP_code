@@ -1,0 +1,7 @@
+{
+	"base-model": "bert-large-cased",
+	"data-file": "<data_file>.json",
+	"batch-size": 32,
+	"epochs": 4,
+	"output_dir": "trained_bert_large_cased"
+}
